@@ -1,0 +1,258 @@
+
+
+
+body{
+    background-color: lightseagreen;
+}
+.body{
+    display: grid;
+    grid-template-rows: 300px 500px 100px
+}
+.body2{
+    display: grid;
+    grid-template-rows: 150px 500px 150px;
+}
+.videomundial{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imagencontacto{
+    margin-left: 510PX;
+}
+
+
+
+
+
+.header{
+    background-color: silver;
+    position: sticky;
+
+   
+}
+
+.navbar {
+    height: 10vh;    
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color: silver;
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: medium;
+    list-style: none;
+    
+
+    
+}
+.frase{
+    font-family: 'Smooch Sans', sans-serif; 
+    font-size: larger;
+    text-align: center;
+    
+}
+
+
+.logo{
+    height: 50px;
+    width: 100px;
+    max-width: 100px;
+    max-height: 50px;
+}
+
+
+
+
+
+.lista{
+    display:grid;
+    grid-template-columns: 420px 420px 420px;
+    grid-template-rows: 400px;
+    list-style: none;
+     
+
+}
+
+.item4{
+    font-size: x-large;
+    text-align: center;
+}
+#image1{
+    max-width: 300px;
+    width: 300px;
+    max-height: 250px;
+    height: 250px;
+    margin: 10px;
+   
+}
+
+#image2{
+    max-width: 300px;
+    width: 300px;
+    max-height: 250px;
+    height: 250px;
+    margin: 10px;
+}
+#image3{
+    max-width: 300px;
+    width: 300px;
+    max-height: 250px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.lista2{
+    margin: 0 auto;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif; 
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-between;
+
+
+}
+
+    
+
+.footer{
+    background-color: silver;
+    margin: 0 auto;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif; 
+    display: flex;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-between;
+    height: 80px;
+    
+    
+}
+.form{
+    text-align: center;
+}
+
+
+input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px;     
+    margin-top: 10px;  
+    padding-left: 10px;
+      margin-bottom: 20px; 
+    }
+    
+    
+textarea{
+      background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    margin-top: 10px;  
+    padding-left: 10px;
+      margin-bottom: 20px; 
+      padding-top: 15px; 
+    }
+    
+    
+label{
+      display: block; 
+    float: center; 
+    }
+    
+    
+    button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px; 
+    margin-bottom: 20px; 
+    margin-top: 10px; 
+    text-transform: uppercase;
+    background-color: blue; 
+    border-color: blue; 
+    border-style: solid; 
+    border-radius: 10px;
+    width: 420px;   
+      cursor: pointer;
+    }
+    
+    
+    button p{
+    color: #fff; 
+    }
+    
+    
+    span{
+    color: #ab4493; 
+    }
+    
+    
+    .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+    }
+    
+    
+    h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #ab4493;
+    }
+    
+    
+    h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+    }
+    
+    
+    p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+    }
+    
+    
+    ::-webkit-input-placeholder {
+     color: #a8a8a8;
+    }
+    
+    
+    ::-webkit-textarea-placeholder {
+     color: #a8a8a8;
+    }
+    
+    
+    .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+    }
+    
+    
+    .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+    }
+    
+    .h2{
+        font-size: xx-large;
+        font-family: 'Smooch Sans', sans-serif;
+        background-color: silver;
+        text-align: center;
+    }
+    
+    .p{
+        font-size: larger;
+        font-family: 'Smooch Sans', sans-serif;
+        text-align: center;
+    }

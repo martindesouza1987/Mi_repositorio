@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<header class="header">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <title>Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</header>
+<body class="body3">
+    <div>
+        <header class="header">
+            <nav class="nav">
+                <ul class="navbar" id="menu">
+                    <li><img name= "logo"  class="logo" src="../Images/Logo.png"></li>
+                     <li><a href="../Pages/Qatar22.html">Qatar 2022</a></li>
+                     <li><a href="../Pages/Sobre_nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="../Pages/armatuviaje.html">Arma tu viaje</a></li>
+              </ul>
+        </nav>
+        </header>
+    </div>
+    <div>
+     <h2 class="frase">Contacto</h2>
+        <p class="frase">Si desea hacer una consulta complete los campos requeridos y nos comunicaremos a la brevedad</p>
+        <br>
+        <form class="form" action="submeter-formulario.php" method="post">    
+        <p>
+        <label for="nombre" class="colocar_nombre">Nombre
+        <span class="obligatorio">*</span>
+        </label>
+        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+        </p>
+        <p>
+        <label for="email" class="colocar_email">Email
+        <span class="obligatorio">*</span>
+        </label>
+        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+        </p>   
+        <p>
+        <label for="telefone" class="colocar_telefono">Teléfono
+        </label>
+        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+        </p>
+        <p>
+            <label for="mensaje" class="colocar_mensaje">Mensaje
+            <span class="obligatorio">*</span>
+            </label>                   
+            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+        </p>  
+            <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+            <p class="aviso">
+            <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>
+            </form>
+    </div>
+    <div>
+     <hr>
+     <footer class="footer">
+        <p>Copyright Viajanding.com</p>
+        <p>Instagram</p>
+        <p>contacto@Viajanding.com</p>
+        <p><a href="../index.html">Home</a> </p>
+     </footer>
+    </div>
+</body>
+</html>
